@@ -9,7 +9,9 @@ def fizzbuzz(int)
     return "Buzz"
   end
   if int % 3 == 0 && int % 5 == 0
+    binding.pry
     return "Fizzbuzz"
+    
   end
   return nil
 end
