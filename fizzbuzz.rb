@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 require 'pry'
 def fizzbuzz(int)
-    binding.pry
+    #binding.pry
   if int % 3 == 0 
     return "Fizz"
   elsif int % 5 == 0
