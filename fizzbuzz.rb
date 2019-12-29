@@ -2,15 +2,14 @@
 # See README.md for instructions on how to do this
 require 'pry'
 def fizzbuzz(int)
+   bindgin.pry
   if int % 3 == 0 
     return "Fizz"
- bindgin.pry
   elsif int % 5 == 0
     return "Buzz"
   end
   if int % 3 == 0 && int % 5 == 0
     return "Fizzbuzz"
-    
   end
   return nil
 end
