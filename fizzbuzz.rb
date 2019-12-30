@@ -4,12 +4,12 @@ require 'pry'
 def fizzbuzz(int)
     #binding.pry
   if int % 3 == 0 
-     "Fizz"
+    return "Fizz"
   elsif int % 5 == 0
-     "Buzz"
+    return "Buzz"
   end
   if int % 3 == 0 && int % 5 == 0
-     "Fizzbuzz"
+     return "Fizzbuzz"
    else
      nil
   end
