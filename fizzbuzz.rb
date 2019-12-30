@@ -10,8 +10,6 @@ def fizzbuzz(int)
   end
   if int % 3 == 0 && int % 5 == 0
      return "Fizzbuzz"
-   else
-     nil
   end
-   
+ return nil  
 end
